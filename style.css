@@ -249,6 +249,10 @@ form{
 		text-align: center;
 }
 
+.rsvp input[type="text"]:focus{
+	border: 3px solid red;
+}
+
 .rsvp input[type="submit"]{
 	margin: 10px auto;
 	display: block;
