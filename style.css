@@ -1,0 +1,89 @@
+body{
+	background-color:#f3f0ed; 
+}
+
+
+h1,
+h2,
+h3{
+	color: #f46577;
+}
+
+
+
+/*********
+
+	Bride and Groom Section
+
+*********/
+
+
+.B-G img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*********
+
+	Groom Section
+	
+*********/
+
+.groom{
+
+	background-color:#474746;
+	padding:34px;
+
+
+}
+
+.groom hr{
+	height: 4px;
+	background-color: #f3f0ed;
+}
+
+.groom p{
+	color: #f3f0ed;
+	text-align: left;
+
+}
+
+
+
+/*********
+
+	Bride Section
+	
+*********/
+
+.bride{
+	padding:34px;
+}
+
+.bride hr{
+	height: 5px;
+	background-color: #474746;
+}
+
+.bride p{
+	color: #474746;
+	text-align: left;
+
+}
+
+
+/*********
+
+	Bridesmaids & Groomsmen 
+			 Section
+	
+*********/
+
+
+.brides-grooms{
+	background-color: #474746;
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
+
