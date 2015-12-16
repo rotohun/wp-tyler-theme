@@ -1,3 +1,8 @@
+*{
+	box-sizing: border-box;
+}
+
+
 body{
 	background-color:#f3f0ed; 
 }
@@ -7,9 +12,73 @@ h1,
 h2,
 h3{
 	color: #f46577;
+	font-family: 'Lobster', cursive;
 }
 
 
+/*
+ * Navigation
+ */
+
+ nav{
+ 	width: 100%;
+ 	background-color: rgba(236,240,237,0.5);
+ 	font-size: 16px;
+ 	text-align: center;
+ 	position: fixed;
+ 	margin: 0;
+ 	z-index: 9999;
+ }
+
+ nav ul{
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin: 0 auto;
+ 	padding: 12px 0;
+ }
+
+nav ul li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+nav ul li a{
+
+	color: #f46577;
+	text-decoration: none;
+
+}
+nav ul li a:hover{
+	color: black;
+	text-decoration: none;
+}
+/*********
+
+	Bride and Groom Section
+
+*********/
+
+
+	header{
+		min-height: 412px;
+		background:url('imgs/header-bg.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	
+	header .header-title{
+		margin: 0;
+		position: absolute;
+		top:50%;
+		left:50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		font-size: 5em;
+	}
 
 /*********
 
@@ -21,6 +90,11 @@ h3{
 .B-G img{
 	display: block;
 	margin: 0 auto;
+}
+
+
+.B-G > div{
+	padding:0;
 }
 
 
@@ -86,4 +160,137 @@ h3{
 	padding-top: 44px;
 	padding-bottom: 44px;
 }
+
+/*
+ * Groomsmens Section
+ */
+
+.groomsmens > div{
+	text-align: center;
+
+}
+
+.groomsmens > div > img{
+	display: inline-block;
+}
+
+
+
+/*
+ * Bridesmaids
+ */
+
+.bridesmaids > div{
+	text-align: center;
+
+}
+
+.bridesmaids > div > img{
+	display: inline-block;
+}
+
+/*
+ * Coutdown section
+ */
+
+
+.countdown{
+	background-image: url('imgs/countdown.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 225px;
+	border-bottom: 10px solid #f46577; 
+
+}
+
+.timer{
+	border: 10px solid #f3f0ed;
+	height: 118px;
+	max-width: 736px;
+	margin: 0 auto;
+	margin-top: 52px;
+
+}
+
+.timer h1{
+	font-size: 6em;
+	margin:0;
+}
+
+
+
+/*
+ * RSVP SECTION
+ */
+
+.rsvp > div {
+	padding-top: 40px;
+	padding-bottom: 110px;
+}
+
+.rsvp h1 {
+	font-size: 84.03px;
+	padding-bottom: 70px;
+}
+
+form{
+	display: block;
+	margin: 0 auto;
+}
+
+.rsvp input[type="text"]{
+		margin: 30px auto;
+		display: block;
+		width: 230px;
+		border: 3px solid #f46577;
+		border-radius: 2px;
+		height: 33px;
+		background-color: #f3f0ed;
+		text-align: center;
+}
+
+.rsvp input[type="submit"]{
+	margin: 10px auto;
+	display: block;
+	background-color: #f46577;
+	border: none;
+	font-size: 16px;
+	padding: 10px;
+	width: 230px;
+	border-radius: 2px;
+	height: 50px;
+	border: 5px solid #f46577;
+	transition: all .4s ease;
+
+}
+
+.rsvp input[type="submit"]:hover{
+	background-color: #f3f0ed;
+	color: #f46577;
+	border: 5px solid #f46577;
+}
+
+input::-webkit-input-placeholder{
+	color:#f46577;
+}
+
+
+/*
+ * Footer Section
+ */
+
+footer{
+	background-color: #f46577;
+	max-height: 72px;
+	color: #f3f0ed;
+
+}
+
+footer h1 {
+	color: #f3f0ed;
+}
+
+
+
+
 
