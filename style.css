@@ -198,6 +198,7 @@ nav ul li a:hover{
 	background-image: url('imgs/countdown.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	min-height: 225px;
 	border-bottom: 10px solid #f46577; 
 
